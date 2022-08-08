@@ -61,6 +61,17 @@
                     <li class="nav-item">
                         <a class="nav-link px-3" data-bs-toggle="tab" href="#post" role="tab">Post</a>
                     </li>
+
+                    <!--  Tab menu -->
+                    <li class="nav-item">
+                        <a class="nav-link px-3" data-bs-toggle="tab" href="#Approved" role="tab">Approved</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" data-bs-toggle="tab" href="#Approval" role="tab">Approval</a>
+                    </li>
+                
+
+
                 </ul>
            </div>
        </div>
