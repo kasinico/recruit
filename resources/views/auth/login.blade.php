@@ -7,7 +7,7 @@
 <div class="auth-page">
     <div class="container-fluid p-0">
         <div class="row g-0">
-            <div class="col-xxl-3 col-lg-4 col-md-5">
+            <div class="col-xxl-4 col-lg-4 col-md-5">
                 <div class="auth-full-page-content d-flex p-sm-5 p-4">
                     <div class="w-100">
                         <div class="d-flex flex-column h-100">
@@ -30,7 +30,7 @@
                                                 <strong>{{ $message }}</strong>
                                             </span>
                                         @enderror
-                                        <label for="input-username">Username</label>
+                                        <label for="input-username">Username/Email</label>
                                         <div class="form-floating-icon">
                                         <i data-feather="users"></i>
                                         </div>
@@ -68,6 +68,7 @@
                                     </div>
                                 </form>
 
+                                <!-- 
                                 <div class="mt-4 pt-2 text-center">
                                     <div class="signin-other-title">
                                         <h5 class="font-size-14 mb-3 text-muted fw-medium">- Sign in with -</h5>
@@ -94,14 +95,17 @@
                                         </li>
                                     </ul>
                                 </div>
+                                    =============================================-->
 
+        <!--  Footer message =======================================================
                                 <div class="mt-5 text-center">
-                                    <p class="text-muted mb-0">Don't have an account ? <a href="{{ url('register') }}"
+                                <p class="text-muted mb-0">Don't have an account ? <a href="{{ url('register') }}"
                                             class="text-primary fw-semibold"> Signup now </a> </p>
                                 </div>
                             </div>
                             <div class="mt-4 mt-md-5 text-center">
-                                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Dason   . Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesdesign</p>
+                                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Dason   . Crafted with <i class="mdi mdi-heart text-danger"></i> </p>
+  ==================================================================-->
                             </div>
                         </div>
                     </div>
@@ -109,7 +113,7 @@
                 <!-- end auth full page content -->
             </div>
             <!-- end col -->
-            <div class="col-xxl-9 col-lg-8 col-md-7">
+            <div class="col-xxl-8 col-lg-8 col-md-7">
                 <div class="auth-bg pt-md-5 p-4 d-flex">
                     <div class="bg-overlay"></div>
                     <ul class="bg-bubbles">
@@ -117,12 +121,7 @@
                         <li></li>
                         <li></li>
                         <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                      
                     </ul>
                     <!-- end bubble effect -->
                     <div class="row justify-content-center align-items-end">
